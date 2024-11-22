@@ -14,7 +14,6 @@ Vagrant.configure("2") do |config|
       sudo mkdir -p /var/www/deaw/html
       sudo cp -vr /vagrant/html/* /var/www/deaw/html/
       sudo systemctl restart nginx
-
     SHELL
   end
 end
